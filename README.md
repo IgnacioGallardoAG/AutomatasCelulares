@@ -7,4 +7,4 @@
    * Para verificarlo en consola usar el comando "python --version"
 2. Este proyecto usa ANTLR para el análisis léxico y sintáctico. dentro del proyecto deje el archivo de ANTLR que usé sino descargalo desde la página oficial de ANTLR
 3. Debes tener el paquete de ANTLR para python
-  * comando --> "pip install antlr4-python3-runtime"
+* comando --> "pip install antlr4-python3-runtime"
