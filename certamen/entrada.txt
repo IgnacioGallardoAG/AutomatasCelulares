@@ -1,0 +1,4 @@
+configurar tasa infectado = 0.05
+configurar tasa recuperado = 0.03
+configurar tasa fallecido = 0.01
+
