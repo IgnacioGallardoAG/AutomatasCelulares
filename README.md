@@ -4,7 +4,7 @@
 
 ## Requisitos
 1. Se utilizó Python 3.12.1, recomiendo usar una versión superior a la 3.8, aunque idealmente usar la misma.
-   * Para verificarlo en consola usar el comando "python --version"
+   * Para verificarlo en consola de windows usar el comando "python --version"
 2. Este proyecto usa ANTLR para el análisis léxico y sintáctico. dentro del proyecto deje el archivo de ANTLR que usé sino descargalo desde la página oficial de ANTLR.
 3. Debes tener el paquete de ANTLR para python:
     * comando --> "pip install antlr4-python3-runtime"
@@ -17,4 +17,10 @@
 * Limpiar.bat: Es un script de limpieza para eliminar archivos generados por ANTLR.
 
 ## Generar los archivos ANTLR
+* en la consola de windows ubicate en el directorio donde está "Automata.g4" ejecuta el siguiente comando
+    * java -jar antlr-4.10.1-complete.jar -Dlanguage=Python3 Automata.g4
 
+## Ejecución del proyecto
+
+* con el siguiente comando en la consola de windows:
+  * python Simulacion.py
